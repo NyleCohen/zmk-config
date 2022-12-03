@@ -9,9 +9,9 @@
        	default_layer {
 		bindings = <
 				&kp C 	   	&kp L 		&kp M 	&kp M 	&kp M 						        &kp F 		&kp U    		&kp Z &kp U    		&kp Z  
-		&kp I 		&hm LCTL S 	&hm LALT R	&hm LGUI T 	&kp LC(LG(Q)) 		                &kp LC(LG(SPACE)) 	&hm RGUI N    	&hm RALT K    		&hm RCTL A 	&kp O
-		&kp Q	 	&kp V 		&kp W 		&kp D 		&kp LC(LG(LS(N4)))   	            &kp LC(SPACE)		&kp H  		&kp Y 			&kp DOT		&kp X
-          									&mt LC(LS(LALT)) SPC 	&kp E &kp E &kp E    &mt LC(LS(LALT)) SPC 	&kp E &kp E &kp E
+		&kp I 		&kp M  	&kp M &kp M &kp M 		                &kp LC(LG(SPACE)) 	&kp F    	&kp U    		&kp Z 	&kp O
+		&kp Q	 	&kp V 		&kp W 		&kp D 		&kp LC(LG(LS(N4)))   	            &kp U		&kp H  		&kp Y 			&kp D		&kp X
+          									&kp H &kp E &kp E &kp E    &kp H 	&kp E &kp E &kp E
 		>;
 		};
     };
