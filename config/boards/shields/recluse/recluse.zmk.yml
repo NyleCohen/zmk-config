@@ -1,0 +1,12 @@
+file_format: "1"
+id: recluse
+name: Recluse
+type: shield
+url: https://github.com/NyleCohen/zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - recluse_left
+  - recluse_right
