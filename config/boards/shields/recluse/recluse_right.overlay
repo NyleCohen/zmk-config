@@ -8,7 +8,6 @@
 
 / {
 	kscan0: kscan {
-		col-offset = <19>;
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
 		input-gpios
