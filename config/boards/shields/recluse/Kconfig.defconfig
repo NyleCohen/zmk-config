@@ -3,7 +3,8 @@ if SHIELD_RECLUSE_LEFT
 config ZMK_KEYBOARD_NAME
     default "recluse"
 
-CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif
 
