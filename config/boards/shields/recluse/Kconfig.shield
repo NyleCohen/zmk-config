@@ -1,5 +1,5 @@
-config SHIELD_MY_BOARD_LEFT
+config SHIELD_RECLUSE_LEFT
     def_bool $(shields_list_contains,recluse_left)
 
-config SHIELD_MY_BOARD_RIGHT
+config SHIELD_RECLUSE_RIGHT
     def_bool $(shields_list_contains,recluse_right)
