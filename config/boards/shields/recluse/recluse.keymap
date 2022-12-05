@@ -7,11 +7,18 @@
         compatible = "zmk,keymap";
                 
        	default_layer {
+//		bindings = <
+//				&kp C 	   	&kp L 		&kp M 	&kp M 	&kp M 						        &kp F 		&kp U    		&kp Z &kp U    		&kp Z  
+//		&kp I 		&kp M  	&kp M &kp M &kp M 		                &kp LC(LG(SPACE)) 	&kp F    	&kp U    		&kp Z 	&kp O
+//		&kp Q	 	&kp V 		&kp W 		&kp D 		&kp LC(LG(LS(N4)))   	            &kp U		&kp H  		&kp Y 			&kp D		&kp X
+//          									&kp H &kp E &kp E &kp E    &kp H 	&kp E &kp E &kp E
+//		>;
+
 		bindings = <
-				&kp C 	   	&kp L 		&kp M 	&kp M 	&kp M 						        &kp F 		&kp U    		&kp Z &kp U    		&kp Z  
-		&kp I 		&kp M  	&kp M &kp M &kp M 		                &kp LC(LG(SPACE)) 	&kp F    	&kp U    		&kp Z 	&kp O
-		&kp Q	 	&kp V 		&kp W 		&kp D 		&kp LC(LG(LS(N4)))   	            &kp U		&kp H  		&kp Y 			&kp D		&kp X
-          									&kp H &kp E &kp E &kp E    &kp H 	&kp E &kp E &kp E
+			&kp Q 		&kp W 		&kp E	&kp R 		&kp T 
+			&kp A 		&kp S		&kp D	&kp F 		&kp G
+			&kp Z 		&kp X 		&kp C	&kp V 		&kp B
+			&hm CTRL 		&hm SHIFT 		&kp SPACE   &hm ALT	
 		>;
 		};
     };
