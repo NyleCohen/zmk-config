@@ -8,9 +8,9 @@
 
 / {
 	kscan0: kscan {
+		col-offset = <19>;
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
-		col-offset = <19>;
 		input-gpios
 		= <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
